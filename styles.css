@@ -1,0 +1,138 @@
+body
+{
+	font-family: 'Montserrat';
+	text-align: center;
+	font-weight: 500;
+}
+h1
+{
+	font-family: 'Montserrat';
+	font-weight: 900;
+	line-height: 1.5;
+}
+h3
+{
+	font-family: 'Montserrat';
+	font-weight: 900;
+	line-height: 1.5;
+	color: black;
+}
+.intro
+{
+	color: ghostwhite;
+}
+.services
+{
+	color: black;
+}
+.container-fluid
+{
+	padding: 2% 2%;
+}
+/*background-color*/
+.colored
+{
+	background-color: #FFCC1D;
+	color: #21094E;
+}
+.black
+{
+	background-color: black;
+	color: #FFCC1D ;
+}
+
+/*title section*/
+.menu
+{
+	background-color: #C8C6A7;
+}
+.navbar-nav
+{
+	font-size: 1.2rem;
+	font-family: 'Montserrat';
+	font-weight: 900;
+	padding-left: 600px;
+}
+.nav-item 
+{
+	font-weight: 30px;
+}
+.big-heading
+{
+	font-family:'Montserrat';
+	font-weight: 900 ;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+.title-image
+{
+	width:70%;
+	height: 90%;
+	margin-top: 30px;
+}
+.image
+{
+	width: 250px;
+	height: 130px;
+	padding: 20px;
+}
+/*Services*/
+.services
+{
+	width: 80%;
+	height: 80%;
+}
+.servicesbutton
+{
+	margin: 5% 3% 5% 0%;
+	width: 50px;
+}
+#features
+{
+	background-color: white;
+}
+.features-title
+{
+	font-size: 1.5rem;
+}
+.icon-size
+{
+	color: black;
+	margin-bottom: 1 rem;
+}
+.icon-size:hover
+{
+	color: ghostwhite;
+}
+/*marketing*/
+.marketing
+{
+	width: 100%;
+	height: 100%;
+}
+/*trusted brand*/
+.test-img
+{
+	width: 800px;
+	height: 300px;
+	margin-top: 0px;
+}
+/*Footer*/
+.social-icon
+{
+	margin: 20px 10px;
+	height: 30px;
+}
+/*media query for mobile mode*/
+@media(max-width: 1028px)
+{
+	#title
+	{
+		text-align: center;
+	}
+	.title-image
+	{
+		position: static;
+	}
+	
+}
